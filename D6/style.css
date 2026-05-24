@@ -1,0 +1,37 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height: 100vh;
+}.margin{
+    width:80%;
+    height:80%;
+    display: flex;
+    background-color:orange;
+    align-items:center;
+    justify-content: center;
+}
+.border{
+    width:80%;
+    height:80%;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+.padding{
+    width:80%;
+    height:40vh ;
+    background-color: lightgreen;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width:80%;
+    height:20vh;
+    background-color: skyblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

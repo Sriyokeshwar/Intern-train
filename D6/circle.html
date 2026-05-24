@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle</title>
+    <style>
+        .c1{
+            border:7px solid #0081C8;
+            border-bottom:7px solid rgba(0,129,200,0.5);
+            left:400px;
+        }
+        .c2{
+            border:7px solid #000000;
+            left:650px;
+            border-bottom:7px solid rgba(0,0,0,0.5);
+        }
+        .c3{
+            border:7px solid #EE334E ;
+            left:900px;
+            border-bottom:7px solid rgba(238,51,78,0.5);
+        }
+        .c4{
+            left:525px;
+            border:7px solid rgba(252,177,49,1.5);
+            border-right:7px solid rgba(252,177,49,0.5);
+            border-left:7px solid rgba(252,177,49,0.5);
+        }
+        .c5{
+            left:775px;  
+            border:7px solid rgba(0,166,81,1.5);
+            border-right:7px solid rgba(0,166,81,0.5);
+            border-left:7px solid rgba(0,166,81,0.5);
+
+        }
+        body{
+            height:100vh;
+            display:flex;
+        }
+        .c1,.c2,.c3,.c4,.c5{
+            width:200px;
+            height:200px;
+            position:absolute;
+            border-radius:50%;
+            mix-blend-mode:overlay;
+
+        }
+        .c1,.c2,.c3{
+            top: 35%;
+        }
+        .c4,.c5{
+            top:50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="c1" id="c1"></div>
+    <div class="c2" id="c2"></div>
+    <div class="c3" id="c3"></div>
+    <div class="c4" id="c4"></div>
+    <div class="c5" id="c5"></div>
+</body>
+</html>
